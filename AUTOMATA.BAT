@@ -70,8 +70,8 @@ adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.sktelecom.tguard
 adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.sktelecom.minit
 adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.skaf.OA00018282
 adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.skaf.OA00199800
-adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.skaf.l001f00002
-adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.tservice
+::adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.skaf.l001f00002
+::adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.tservice
 adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.tservice.utility_lge
 adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.t_smart_charge
 adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.prod
@@ -81,8 +81,8 @@ adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.skaf.OA00056282
 adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.nate
 adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.RDiagno
 adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.RInstallAgent
-adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.rsupport.phonetophone.host.skt.lge
-adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.tbmon
+::adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.rsupport.phonetophone.host.skt.lge
+::adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.tbmon
 adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.lge.sktlogservice
 adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.lge.sktgnsstest
 adb -s %TARGET_DEVICE% shell pm uninstall -k --user 0 com.skt.hps20client
